@@ -43,7 +43,7 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument(
         "--batch_size",
         type=int,
-        default=4,
+        default=16,
         help="Inference batch size per shape bucket.",
     )
     parser.add_argument(
